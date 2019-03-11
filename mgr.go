@@ -6,7 +6,7 @@ import (
 
 	"github.com/induzo/fsm"
 	"github.com/rs/xid"
-	"github.com/vincentserpoul/gohttperror"
+	"github.com/induzo/gohttperror"
 )
 
 // MgrI is the interface to initialize the new entity mgr

@@ -13,7 +13,7 @@ import (
 	"github.com/induzo/fsm"
 	"github.com/induzo/statusupdate"
 	"github.com/rs/xid"
-	"github.com/vincentserpoul/gohttperror"
+	"github.com/induzo/gohttperror"
 )
 
 // StatusUpdateHandler allows update of status for the entity
