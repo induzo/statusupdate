@@ -11,9 +11,9 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/go-chi/render"
 	"github.com/induzo/fsm"
+	"github.com/induzo/gohttperror"
 	"github.com/induzo/statusupdate"
 	"github.com/rs/xid"
-	"github.com/induzo/gohttperror"
 )
 
 // StatusUpdateHandler allows update of status for the entity
@@ -44,7 +44,7 @@ func StatusUpdateHandler(
 		if errJSON != nil && errJSON != io.EOF {
 			errRender = render.Render(w, r,
 				gohttperror.ErrBadRequest(
-					fmt.Errorf("error decoding payload: %v", errJSON),
+					fmt.Errorf("error decoding payload: %w", errJSON),
 				),
 			)
 			return
