@@ -14,7 +14,7 @@ require (
 	github.com/induzo/gohttpmw v1.0.1 // indirect
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/pkg/errors v0.8.1 // indirect
-	github.com/rs/xid v1.2.1
+	github.com/rs/xid v1.3.0
 	github.com/segmentio/ksuid v1.0.2 // indirect
 	github.com/sirupsen/logrus v1.4.0 // indirect
 	github.com/stretchr/testify v1.3.0 // indirect
