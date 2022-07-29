@@ -5,7 +5,7 @@ go 1.12
 require (
 	github.com/emicklei/dot v0.9.2 // indirect
 	github.com/go-chi/chi v4.1.2+incompatible
-	github.com/go-chi/render v1.0.1
+	github.com/go-chi/render v1.0.2
 	github.com/golang/mock v1.2.0 // indirect
 	github.com/google/uuid v1.1.1 // indirect
 	github.com/hashicorp/golang-lru v0.5.1 // indirect
